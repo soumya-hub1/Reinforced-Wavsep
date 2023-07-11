@@ -1,14 +1,17 @@
 version: 0.1
 
 phases:
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre_build phase...
   build:
     commands:
-      - echo Entered the build phase...
-      - mvn clean package
+      - echo Build started on `date`
+      - mvn install
   post_build:
     commands:
-      - echo Build completed successfully
+      - echo "Packaging artifacts..."
+      - mv $CODEBUILD_SRC_DIR/target/reinforced.war ROOT.war
 artifacts:
   files:
-    - target/reinforced.war
-  discard-paths: yes
+    - ROOT.war
