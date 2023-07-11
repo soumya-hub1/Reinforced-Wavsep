@@ -8,7 +8,6 @@ phases:
   post_build:
     commands:
       - echo "Packaging artifacts..."
-      - mv $CODEBUILD_SRC_DIR/target/reinforced.war ROOT.war
 artifacts:
   files:
     - ROOT.war
