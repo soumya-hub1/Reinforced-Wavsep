@@ -34,7 +34,7 @@
     <br>   
     <br>
     <b>Notes</b><br>
-    RN<br>
+    ReadyNetworks<br>
     Make sure you install the database using the auto-installer, <br> 
     and according to the instructions provided at the WAVSEP Google Code home page.<br>
     <b>Known Issues</b><br>
