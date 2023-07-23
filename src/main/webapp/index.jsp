@@ -34,7 +34,7 @@
     <br>   
     <br>
     <b>Notes</b><br>
-    ReadyNetworks<br>
+    ReadyNetworksIndia.pvt.ltd<br>
     Make sure you install the database using the auto-installer, <br> 
     and according to the instructions provided at the WAVSEP Google Code home page.<br>
     <b>Known Issues</b><br>
